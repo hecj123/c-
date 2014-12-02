@@ -1,10 +1,10 @@
 #include<stdio.h>
-int mian()
+int main()
 {
     char c1,c2;
     printf("Please enter a capital letter:");
-    scanf("%s",&c1);
+    scanf("%c",&c1);
     c2=c1+32;
-    printf("\n%s",c2);
+    printf("\n%c",c2);
     return 0;
 }
