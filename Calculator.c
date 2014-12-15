@@ -33,7 +33,7 @@ int main()
            if((long)number2==0)	 
              printf("\n\n\aDavision by zero error!\n");	
            else
-		     printf("=%lf\n",(long)number1%(long)number2);		
+		     printf("=%ld\n",(long)number1%(long)number2);		
            break;
       
       default:
