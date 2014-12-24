@@ -6,7 +6,7 @@ int main()
     a[i]=i+1;
    
     for(i=9;i>=0;i--)
-    printf("%d/t",a[i]);
+    printf("%d\t",a[i]);
     return 0;
     
 }

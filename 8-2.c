@@ -7,7 +7,7 @@ int main()
     for(i=0;i<10;i++)
     scanf("%d\t",&LearnTime[i]);
     
-    for(j=0;j<9;i++)
+    for(j=0;j<9;j++)
      for(i=0;i<9-j;i++)
      if(LearnTime[i]>LearnTime[i+1])
        {
