@@ -1,14 +1,15 @@
 #include<stdio.h>
-int main( )
-｛ printstar()；
-   print_message( )；
-   printstar( ); 
-Return 0;
+int main()
+{ 
+   printstar();
+   print_message();
+   printstar(); 
+   return 0;
  }
  
-printstar( )
+void printstar()
  { 
    printf(“**************\n”);
  }
- print_message( )
+void print_message()
  { printf(“how do you do!\n”);}
