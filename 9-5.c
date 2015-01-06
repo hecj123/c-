@@ -8,7 +8,7 @@ int main()
        scanf("%d",&a[i]);
     printf("\n");
     
-    for(i=1,m=a[0],n=0;i<10,i++)   
+    for(i=1,m=a[0],n=0;i<10;i++)   
     {
         if(max(m,a[i])>m)          //若max函数返回值大于m
         {
