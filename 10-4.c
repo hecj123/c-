@@ -22,7 +22,7 @@ void exchange(int *q1,int *q2,int *q3)
 void swap(int *pt1,int *pt2)
 {
   int temp;
-  temp=*p1;
-  *p1=*p2;
-  *p2=temp;
+  temp=*pt1;
+  *pt1=*pt2;
+  *pt2=temp;
 }
