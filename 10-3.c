@@ -17,7 +17,7 @@ int main()
 void swap(int * point_1,* point_2)
 {
     int temp;
-	temp=* point_1;
+	temp=* point_1;                 //使*p1和*p2互换
 	* point_1=* point_2;
 	* point_2=temp;
 }
