@@ -8,7 +8,7 @@ int main()
     scanf("%d",&a[i]);
     
     for(p=a;p<(a+10);p++)
-    printf("%d",*p);  //用指针指向当前的数组元素
+    printf("%d\t",*p);  //用指针指向当前的数组元素
     
     return 0;
     
