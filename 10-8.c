@@ -7,8 +7,8 @@ int main()
     for(i=0;i<10;i++)
     scanf("%d",p++);
     
-    for(i=0;i<10;i++,P++)
-    printf("%d",*p);
+    for(i=0;i<10;i++,p++)
+    printf("%d\t",*p);
     printf("\n");
     
     return 0;
