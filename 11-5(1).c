@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   void copy_string(char from[],char to[])
+   void copy_string(char from[],char to[]);
    char a[]="I an a teacher";
    char b[]="You are a programmer";
    printf("string a=%s\n string b=%s\n",a,b);
