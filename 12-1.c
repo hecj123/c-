@@ -4,19 +4,19 @@ int main()
 {
    FILE * fp;
    char ch,filename[10];
-   printf("请输入所用的文件名:");
+   printf("Please enter the file name:");
    
-   sacanf("%s",filename);
-   if((fp=fopen(filename,"w"))==NULL)
+   scanf("%s",filename);
+   if((fp=fopen(filename,"w"))==NULL)    //打开输出文件并使fp指向此文件
    {
-      printf("无法打开此文件\n");
-      exit(0);
+      printf("Unable to open this file\n"); //如果打开出错，就输出“打不开”的信息
+      exit(0);     //终止程序
    }
    
-   char=getchar();
-   printf("请输入一个准备存储到磁盘的字符串（以#结束）：");
-   ch=getchar();
-   while(ch!='#')
+   ch=getchar();     //用来接收最后输入的回车符
+   printf("Please enter a string  in the disk（Ends with a #）：");
+   ch=getchar();   //接收从键盘输入的第一个字符
+   while(ch!='#')  //当输入#时结束循环
    {
       fputc(ch,fp);
       putchar(ch);
